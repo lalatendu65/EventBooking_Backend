@@ -54,3 +54,11 @@ Make sure to create your own values for these variables.
 Go through the APi documnet that avalibale  POSTMAN 
 
 POSTAMN LINK : https://lunar-astronaut-645857.postman.co/workspace/Team-Workspace~35e4d489-294a-4077-8a2d-6625c7dec53c/collection/24434283-b3900d2a-ff63-4a81-9fa6-3fba50e2006b?action=share&creator=24434283
+
+**Note**: 
+
+All the api are hosted in aws EC2 instance 
+
+To acces the api you can use the URL : http://43.204.101.6:8000
+
+
