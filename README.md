@@ -1,7 +1,8 @@
 **Event Booking API**
 This is an Event Booking API built using Express.js and MongoDB. It allows users to book events.
 
-***Features**
+***Features**:
+
 User registration and authentication
 
 Create and manage events
@@ -28,6 +29,7 @@ Navigate to the project directory:cd EventBooking_Backend
 Install dependencies:npm install
 
 **Usage**:
+
 Create a .env file in the root directory of the project. You can use the provided .env.example file as a template:
 
 Set up your MongoDB connection in the .env file:
@@ -37,6 +39,7 @@ Start the application:npm start
 The server will start on the default port (3000). You can access the API at http://localhost:8080
 
 **Environment Variables**:
+
 The following environment variables are required for the application to run:
 
 MONGODB_URI: The connection string for your MongoDB database.
