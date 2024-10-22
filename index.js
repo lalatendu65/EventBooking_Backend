@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import connectToDatabase from "./utils/dbconnection.js";
 import routes from "./routes/app.route.js";
 import mongoSanitize from "express-mongo-sanitize";
+import { startAutoCompletingBooking } from "./utils/scheduler.js";
 
 dotenv.config();
 const app = express();
@@ -17,6 +18,8 @@ app.use(cors());
 app.use(express.json({ limit: "1000mb" })); // For JSON payloads
 app.use(express.urlencoded({ extended: true })); // For form data
 
+// scheduler
+startAutoCompletingBooking();
 // routes
 app.use(routes);
 
