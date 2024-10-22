@@ -36,7 +36,7 @@ Set up your MongoDB connection in the .env file:
 
 Start the application:npm start
 
-The server will start on the default port (3000). You can access the API at http://localhost:8080
+The server will start on the default port (8080). You can access the API at http://localhost:8080
 
 **Environment Variables**:
 
